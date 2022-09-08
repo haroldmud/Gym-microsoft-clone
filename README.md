@@ -1,19 +1,17 @@
 
 
-# Project Name
+# Microsoft Clone
 
-> Description the project.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+- Node.js
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://haroldmud.github.io/Gym-microsoft-clone/)
 
 
 ## Getting Started
