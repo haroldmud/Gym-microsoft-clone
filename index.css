@@ -1,0 +1,134 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+  margin-right: 2rem;
+}
+
+.headerNav {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.headerNav li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.headerNav li .a:hover {
+  border-bottom: black solid 2px;
+}
+
+.microsoftbtn {
+  margin-top: 15px;
+  background: none;
+  border: none;
+  height: 20px;
+}
+
+.microsoftbtn:hover {
+  margin-top: 16px;
+  border-bottom: black solid 2px;
+}
+
+.headerMore {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+
+.headerMore a {
+  margin-top: 15px;
+}
+
+.ads {
+  position: relative;
+  background-color: #0067b8!important;
+  height: 50px;
+  justify-content: center;
+}
+
+.ads a {
+  position: absolute;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 700;
+  left: 20%;
+  top: 13px;
+}
+
+.ads a:hover {
+  text-decoration: underline;
+}
+
+.main_card {
+  position: relative;
+}
+
+.surface {
+  position: absolute;
+  width: 30%;
+  top: 5rem;
+  line-height: 25px;
+  right: 10rem;
+}
+
+.surface button {
+  background-color: #0067b8!important;
+  border: none;
+  color: aliceblue;
+  padding: 15px;
+  font-size: medium;
+  font-weight: 700;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.surface button:hover {
+  /* problem */
+  background-color: #003a64;
+}
+
+.surface a {
+  margin-left: 2rem;
+  font-size: medium;
+  font-weight: 700;
+  color: #0067b8!important;
+}
+
+.surface a:hover {
+  text-decoration: underline;
+}
+
+.leftright {
+  width: fit-content;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.circle {
+  width: 15px;
+  margin-bottom: 9px;
+}
+
+.lr {
+  width: 35px;
+}
