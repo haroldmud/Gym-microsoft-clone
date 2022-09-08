@@ -136,9 +136,8 @@ a {
 .shopItem {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
-  width: 14rem;
-  border: red solid 1px;
+  padding: 1rem;
+  width: 10rem;
   justify-content: center;
   margin: 0 auto;
 }
@@ -150,6 +149,16 @@ a {
 }
 
 .shopItem a {
+  padding-top: 1rem;
   justify-content: center;
   margin: 0 auto;
+  text-align: center;
+}
+
+.shoprow1 {
+  display: flex;
+}
+
+.section2 {
+  margin-top: 5rem;
 }
