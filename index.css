@@ -140,6 +140,7 @@ a {
   width: 10rem;
   justify-content: center;
   margin: 0 auto;
+  width: 11rem;
 }
 
 .shopItem img {
@@ -149,16 +150,60 @@ a {
 }
 
 .shopItem a {
+  color: #0067b8;
+  font-weight: 700;
   padding-top: 1rem;
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+  text-decoration: underline;
+}
+
+#xbox a {
+  width: 12rem;
 }
 
 .shoprow1 {
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 .section2 {
   margin-top: 5rem;
+}
+
+.cardSection {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 3rem;
+}
+
+.card {
+  width: 280px;
+  height: 450px;
+}
+
+.card h2 {
+  line-height: 1.8rem;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.card a {
+  margin-top: 2.5rem;
+  font-weight: 700;
+  color: #0067b8;
+  font-size: 14px;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
