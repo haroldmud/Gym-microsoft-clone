@@ -17,6 +17,10 @@ a {
     color: black;
 }
 
+.menuicn {
+  display: none;
+}
+
 .logo {
   margin-right: 2rem;
 }
@@ -36,14 +40,14 @@ a {
   border-bottom: black solid 2px;
 }
 
-.microsoftbtn {
+microsoftbtn {
   margin-top: 15px;
   background: none;
   border: none;
   height: 20px;
 }
 
-.microsoftbtn:hover {
+microsoftbtn:hover {
   margin-top: 16px;
   border-bottom: black solid 2px;
 }
@@ -102,7 +106,6 @@ a {
 }
 
 .surface button:hover {
-  /* problem */
   background-color: #003a64;
 }
 

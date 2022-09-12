@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+  header {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 37%;
+    bottom: 23%;
+  }
+
+  .a {
+     display: none;
+  }
+
+  .menuicn {
+    position: absolute;
+    left: 5%;
+    top: 27%;
+    display: block;
+
+  }
+  
+  .searchicn {
+    position: absolute;
+    left: 15%;
+    bottom: 19%;
+  }
+
+  .headerMore .stay {
+    margin-bottom: 12%;
+  }
+
+  .ads {
+    height: 5rem;
+  }
+
+  .ads a {
+    width: 60%;
+    margin-top: -0.5rem;
+    text-align: center;
+  }
+
+  .surface {
+    position: static;
+    width: 98%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .surface a {
+    display: none;
+  }
+
+  .surface button {
+    padding: 10px 5px;
+  }
+  
+  .crossLine {
+    border-bottom: 1px black solid;
+    width: 100%;
+    margin-top: 3%;
+  }
+
+   }
