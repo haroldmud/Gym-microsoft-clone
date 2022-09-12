@@ -73,4 +73,20 @@
     display: flex;
   }
 
+  .cardSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardSection div {
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .card img {
+    width: 100%;
+    height: 46.05%;
+  }
+
    }
