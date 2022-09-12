@@ -312,3 +312,60 @@ section {
 .cocomob {
   display: none;
 }
+
+.follow {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  height: 35px;
+  margin-left: 3.8rem;
+}
+
+.follow p {
+  font-size: 14px;
+}
+
+.follow img {
+  width: 28px;
+  height: 28px;
+  margin-top: 5px;
+}
+
+/* .topUp {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  background-color: grey;
+  padding: 10px;
+  width: fit-content;
+} */
+
+footer {
+  margin-top: 5rem;
+  background-color: rgba(105, 105, 105, 0.164);
+}
+
+footer div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer div ul li {
+  list-style: none;
+  font-size: small;
+}
+
+footer div ul li:hover {
+  text-decoration: underline;
+}
+
+footer div ul li a {
+  color: dimgrey;
+}
+
+footer div ul h2 {
+  font-size: 15px;
+  color: dimgrey;
+}
