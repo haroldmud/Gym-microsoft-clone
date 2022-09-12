@@ -173,6 +173,32 @@ a {
   width: fit-content;
 }
 
+.shopapart {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 10rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 11rem;
+}
+
+.shopapart img {
+  width: 40px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.shopapart a {
+  color: #0067b8;
+  font-weight: 700;
+  padding-top: 1rem;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: underline;
+}
+
 .section2 {
   margin-top: 5rem;
 }
@@ -183,7 +209,7 @@ a {
   justify-content: space-around;
   margin: 0 auto;
   width: 90%;
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .card {
@@ -253,6 +279,16 @@ a {
   font-weight: 700;
 }
 
+section {
+  position: relative;
+}
+
 .mobilecomputer {
   display: none;
+}
+
+.binesh {
+  position: absolute;
+  top: 5px;
+  left: 15px;
 }
