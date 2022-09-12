@@ -292,3 +292,23 @@ section {
   top: 5px;
   left: 15px;
 }
+
+.cocoImg {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#surface {
+  position: absolute;
+  left: 6rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+#surface button {
+  padding: 5px;
+}
+
+.cocomob {
+  display: none;
+}

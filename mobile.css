@@ -111,7 +111,7 @@
   .shopApart {
     display: flex;
   }
-  
+
   .shopapart {
     display: flex;
     flex-direction: column;
@@ -160,6 +160,22 @@
     top: 10rem;
     width: 21rem;
     padding: 15px;
+  }
+
+  .cocoImg {
+    display: none;
+  }
+
+  .cocomob {
+    display: block;
+    margin-top: -4rem;
+  }
+
+  #surface {
+    position: static;
+    width: 98%;
+    justify-content: center;
+    margin: 0 auto;
   }
 
    }
