@@ -369,3 +369,41 @@ footer div ul h2 {
   font-size: 15px;
   color: dimgrey;
 }
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  font-size: small;
+  color: dimgray;
+}
+
+.lang {
+  display: flex;
+  /* border: red solid 1px; */
+  height: fit-content;
+}
+
+.lang img {
+  width: 22px;
+  margin-right: 12px;
+  margin-top: 10px;
+  height: 22px;
+}
+
+.lang p {
+  font-size: small;
+}
+
+.sites {
+  width: 900px;
+}
+
+.sites ul {
+  display: flex;
+  width: 800px;
+}
+
+.sites ul li {
+  margin-right: 12px;
+}
