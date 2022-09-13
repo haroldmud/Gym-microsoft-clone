@@ -4,6 +4,21 @@
     display: flex;
     justify-content: space-around;
   }
+
+  .headerNav {
+    display: none;
+    position: absolute;
+    background-color: rgba(87, 83, 83, 0.952);
+    border: red solid 1px;
+    z-index: 3;
+    width: 82%;
+    margin-left: 1px;
+    height: 20rem;
+  }
+
+  .hide {
+    z-index: 4;
+  }
   
   .logo {
     position: absolute;
@@ -11,9 +26,13 @@
     bottom: 23%;
   }
 
-  .a {
-     display: none;
+  #microsoftbtn {
+    display: none;
   }
+
+  /* .a {
+    display: none;
+  } */
 
   .menuicn {
     position: absolute;
@@ -29,17 +48,21 @@
     bottom: 19%;
   }
 
+  .headerMore {
+    margin-left: 10rem;
+  }
+
   .headerMore .stay {
     margin-bottom: 12%;
   }
 
   .ads {
-    height: 5rem;
+    height: 7rem;
   }
 
   .ads a {
     width: 60%;
-    margin-top: -0.5rem;
+    margin-top: 0.3rem;
     text-align: center;
   }
 
@@ -230,5 +253,14 @@
 
   .foot {
     display: none;
+  }
+
+  .hide {
+    position: absolute;
+    left: 6px;
+    display: none;
+    background-color: transparent;
+    border-color: transparent;
+    top: 4px;
   }
    }

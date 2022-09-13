@@ -407,3 +407,7 @@ footer div ul h2 {
 .sites ul li {
   margin-right: 12px;
 }
+
+.hide {
+  display: none;
+}

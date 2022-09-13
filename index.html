@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="./mobile.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
     <title>Microsoft-Cloud, Computer</title>
 </head>
 <body>
   <header>
-    <ul class="headerNav">
-      <li> <a href="https://www.google.com/"></a> <a href="./index.html"><img class="logo" src="./images/microsoft_logo.png" alt="microsoft logo" width="110" height="22"></a> </li>
+    <a href="./index.html" href="./index.html"><img class="logo" src="./images/microsoft_logo.png" alt="microsoft logo" width="110" height="22"></a> 
+    <ul class="headerNav" id="headerNav">
       <li> <a class="a" href="https://www.google.com/">Microsoft 365</a> </li>
       <li> <a class="a" href="https://www.google.com/">Team</a> </li>
       <li> <a class="a" href="https://www.google.com/">Windows</a> </li>
@@ -23,10 +24,11 @@
       <li> <a class="a" href="https://www.google.com/">Small Business</a> </li>
       <li> <a class="a" href="https://www.google.com/">Support</a> </li>
     </ul>
-    <img class="menuicn" src="./icons/menuicn.png" alt="menu" width="22px" height="22px">
+    <img class="menuicn" onclick="showNav();" id="menuicn" src="./icons/menuicn.png" alt="menu" width="22px" height="22px">
     <div class="headerMore">
       <button type="button" id="microsoftbtn" class="a">All Microsoft <span><img src="./icons/dropdown.png" width="10px" alt="dropdown"></span></button>
-      <a class="searchicn" href="https://www.google.com/"><img src="./icons/search.png" width="22px" alt="search"></a>
+      <button class="hide" id="hide" onclick="hideNav()"><img src="./icons/hide.png" width="35px" height="35px" alt="cross"></button>
+      <a class="searchicn" id="searchicn" href=""><img src="./icons/search.png" width="22px" alt="search"></a>
       <a class="stay" href="https://www.google.com/"><img src="./icons/shopping-cart.png" width="20px" alt="purchase"></a>
       <a class="stay" href="https://www.google.com/"><img src="./icons/userplus.svg" width="22px" alt="male-user"></a>
     </div>
